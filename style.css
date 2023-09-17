@@ -3,4 +3,69 @@
 body{
     background-color: gray;
 }
+img{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    right: 70px;
+    border-radius: 50px 500px;
+}
+.main-box{
+    height: 550px;
+    width: 1112px;
+    margin: 20px 200px;
+    border: 2px rgb(0, 0, 0) dashed;
+    border-radius: 30px;
+    
+}
+.box{
+    width: 500px;
+    height: 500px;
+    margin: 20px 20px;
+    padding: 10px 0px 0px 40px;
+}
+#box1{
+    color: rgb(72, 71, 71);
+    background-color: white ;
+    position: absolute;
+    top: 20px;
+    border-radius: 20px 0px 0px 20px;
+}
+#box2{
+    color: white;
+    background-color: rgb(72, 71, 71) ; 
+    position: absolute;
+    top: 20px;
+    right: 600px;
+    border-radius: 0px 20px 20px 0px;
+}
 
+/*--------------------------------------------------*/
+
+#box1 input{
+    border-color: rgb(187, 187, 187);
+    border-style: none;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+#box1 select{
+    border-color: rgb(187, 187, 187);
+    border-style: none;
+    border-bottom-style: solid;
+}
+#Last{
+    margin-left: 30px;
+    width: 250px;
+}
+
+#Employees{
+    margin-left: 30px;
+    width: 250px;
+}
+
+#box2 input{
+    background-color: rgb(72, 71, 71);
+    border-style: none;
+    border-bottom-style: solid;
+}
