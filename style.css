@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
+html{
+    width: 1980px;
+    height: 1080px;
+}
+
 body{
     background-color: gray;
+
 }
 img{
     width: 400px;
@@ -16,6 +22,8 @@ img{
     margin: 20px 200px;
     border: 2px rgb(0, 0, 0) dashed;
     border-radius: 30px;
+    position: relative;
+    
     
 }
 .box{
@@ -28,15 +36,15 @@ img{
     color: rgb(72, 71, 71);
     background-color: white ;
     position: absolute;
-    top: 20px;
+    top: -2px;
     border-radius: 20px 0px 0px 20px;
 }
 #box2{
     color: white;
     background-color: rgb(72, 71, 71) ; 
     position: absolute;
-    top: 20px;
-    right: 600px;
+    top: -2px;
+    left: 540px;
     border-radius: 0px 20px 20px 0px;
 }
 
@@ -69,3 +77,38 @@ img{
     border-style: none;
     border-bottom-style: solid;
 }
+
+/*--------------------------------------------------*/
+#box2 select{
+    border-color: rgb(187, 187, 187);
+    border-style: none;
+    border-bottom-style: solid;
+    background-color: rgb(72, 71, 71);
+    color: white;
+}
+#place{
+    margin-left: 30px;
+    width: 250px;
+}
+#Phone_Number{
+    margin-left: 30px;
+    width: 250px;
+}
+
+#box2 input{    
+    border-color: rgb(187, 187, 187);
+    border-style: none;
+    border-bottom-style: solid;
+    border-width: 1px;
+    color: white;
+}
+
+button{
+    background-color: white;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0px 0px 5px 1px black;
+    cursor: pointer;
+}
+
+
