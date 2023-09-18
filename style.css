@@ -3,6 +3,7 @@
 html{
     width: 1980px;
     height: 1080px;
+    font-family: 'Itim', cursive;
 }
 
 body{
@@ -55,12 +56,14 @@ img{
     border-style: none;
     border-bottom-style: solid;
     border-width: 1px;
+    font-family: 'Itim', cursive;
 }
 
 #box1 select{
     border-color: rgb(187, 187, 187);
     border-style: none;
     border-bottom-style: solid;
+    font-family: 'Itim', cursive;
 }
 #Last{
     margin-left: 30px;
@@ -76,6 +79,7 @@ img{
     background-color: rgb(72, 71, 71);
     border-style: none;
     border-bottom-style: solid;
+    font-family: 'Itim', cursive;
 }
 
 /*--------------------------------------------------*/
@@ -85,6 +89,7 @@ img{
     border-bottom-style: solid;
     background-color: rgb(72, 71, 71);
     color: white;
+    font-family: 'Itim', cursive;
 }
 #place{
     margin-left: 30px;
@@ -109,6 +114,7 @@ button{
     border-style: none;
     box-shadow: 0px 0px 5px 1px black;
     cursor: pointer;
+    font-family: 'Itim', cursive;
 }
 
 
